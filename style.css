@@ -191,3 +191,29 @@ h1 { font-family: var(--font-heading); font-size: 3rem; letter-spacing: 1px; }
 .video-wrapper iframe {
     position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;
 }
+
+/* Add to the bottom of your style.css */
+
+.stream-button {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+}
+
+.stream-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.stream-button.active-stream {
+    background: var(--accent); /* Uses your primary accent color */
+    border-color: var(--accent);
+    color: white;
+    box-shadow: 0 0 10px var(--accent-glow);
+}
+
