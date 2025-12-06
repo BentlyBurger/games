@@ -1,6 +1,6 @@
 // Sample Data - You can edit this later with real data
 const gamesData = [
-    { id: 1, sport: 'soccer', title: 'INTER MIAMI VS VANCOUVER', date: 'LIVE NOW', img: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=1000&auto=format&fit=crop', embed: '' },
+    { id: 1, sport: 'soccer', title: 'INTER MIAMI VS VANCOUVER', date: 'LIVE NOW', img: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=1000&auto=format&fit=crop', embed: 'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQVJFRTdDczNYbTNjRS9JNExKUW53R3owcytlWldZVzJMUWowUCtPU3MxS2ZSeEtpdXVSa2N5L0Y3Vi95cnZpazQ9"' },
 ];
 
 const container = document.getElementById('games-container');
@@ -75,4 +75,5 @@ window.onclick = function(event) {
 
 // Initial Load
 displayGames();
+
 
