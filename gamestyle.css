@@ -1,0 +1,193 @@
+:root {
+    --bg-color: #0f0f13;
+    --sidebar-bg: rgba(22, 22, 29, 0.7);
+    --card-bg: rgba(30, 30, 40, 0.6);
+    --accent: #6c5ce7;
+    --accent-glow: #6c5ce780;
+    --text-main: #ffffff;
+    --text-muted: #a0a0a0;
+    --font-heading: 'Teko', sans-serif;
+    --font-body: 'Outfit', sans-serif;
+    --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: var(--font-body);
+    height: 100vh;
+    overflow: hidden; /* Prevents scroll on body, scroll inside main instead */
+}
+
+/* Background Ambient Shapes */
+.bg-shape {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: -1;
+    opacity: 0.5;
+}
+.shape-1 { width: 400px; height: 400px; background: var(--accent); top: -50px; left: -50px; }
+.shape-2 { width: 300px; height: 300px; background: #00d2d3; bottom: -50px; right: -50px; }
+
+/* Layout */
+.app-container {
+    display: flex;
+    height: 100%;
+    backdrop-filter: blur(20px); /* Glass effect on the whole app */
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: var(--sidebar-bg);
+    border-right: var(--glass-border);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: var(--text-main);
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo i { color: var(--accent); }
+
+.nav-links { list-style: none; }
+.nav-links li {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.nav-links li:hover, .nav-links li.active {
+    background: var(--accent);
+    color: white;
+    box-shadow: 0 4px 15px var(--accent-glow);
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+h1 { font-family: var(--font-heading); font-size: 3rem; letter-spacing: 1px; }
+
+.user-profile { display: flex; align-items: center; gap: 10px; }
+.avatar {
+    width: 40px; height: 40px; background: linear-gradient(45deg, var(--accent), #00d2d3);
+    border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;
+}
+
+/* Games Grid */
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* Game Card Design */
+.game-card {
+    background: var(--card-bg);
+    border: var(--glass-border);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border-color: var(--accent);
+}
+
+.card-image {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.live-badge {
+    position: absolute;
+    top: 10px; left: 10px;
+    background: #ff4757;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.7; } 100% { opacity: 1; } }
+
+.card-info { padding: 1.5rem; }
+.card-sport { color: var(--accent); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem; display: block; }
+.card-title { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+.card-date { font-size: 0.9rem; color: var(--text-muted); }
+
+/* Modal (Video Player) */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 100; 
+    left: 0; top: 0; width: 100%; height: 100%; 
+    background-color: rgba(0,0,0,0.9); 
+    backdrop-filter: blur(5px);
+    align-items: center; justify-content: center;
+}
+
+.modal-content {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 900px;
+    border: var(--glass-border);
+    position: relative;
+}
+
+.close-btn {
+    position: absolute; top: 15px; right: 25px; color: white; font-size: 2rem; cursor: pointer;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    margin-top: 20px;
+    background: black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;
+}
