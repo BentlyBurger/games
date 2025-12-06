@@ -9,7 +9,7 @@ const gamesData = [
         // 🚨 CHANGE 1: 'embed' is now an ARRAY of URLs 🚨
         embeds: [
             'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQVJFRTdDczNYbTNjRS9JNExKUW53R3owcytlWldZVzJMUWowUCtPU3MxS2ZSeEtpdXVSa2N5L0Y3Vi95cnZpazQ9',
-            'https://stream2.site/other-backup-stream-link', // SECOND STREAM LINK
+            'https://methstreams.ms/stream/psg-vs-rennes#', // SECOND STREAM LINK
             'https://stream3.net/another-backup-option'      // THIRD STREAM LINK
         ] 
     },
@@ -143,3 +143,4 @@ window.onclick = function(event) {
 
 // Initial Load
 displayGames();
+
