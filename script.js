@@ -2,18 +2,31 @@
 const gamesData = [
     { 
         id: 1, 
-        sport: 'soccer', 
-        title: 'INTER MIAMI VS VANCOUVER', 
-        date: 'LIVE NOW', 
-        img: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=1000&auto=format&fit=crop', 
+        sport: 'basketball', 
+        title: 'WARRIOS VS CAVS', 
+        date: '7:30 PM EST', 
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZArQLMT4gl701znsCVEoCeq6VcUeQkqLYRw&s', 
         // 🚨 CHANGE 1: 'embeds' array is correct 🚨
         embeds: [
-            'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQVJFRTdDczNYbTNjRS9JNExKUW53R3owcytlWldZVzJMUWowUCtPU3MxS2ZSeEtpdXVSa2N5L0Y3Vi95cnZpazQ9',
-            'https://methstreams.ms/stream/psg-vs-rennes#', // SECOND STREAM LINK
-            'https://stream3.net/another-backup-option'      // THIRD STREAM LINK
+            'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQmxyTUFHR21CSmNaamtDb2tqdWFCMWMwWHFWaUcxdk1HblNSQU54L1N3S0RTenRlN01jbkhURVJWYUV4eFJMK0pNaEpTK25aNkNaZ2RrL2IvVXFPMFI~',
+            'https://ntvstream.cx/watch/kobra/cleveland-cavaliers-vs-golden-state-warriors-2357706', // SECOND STREAM LINK
+            'https://sportyhunter.com/match/slg-Cleveland-Cavaliers-vs-Golden-State-Warriors-tSf9HPuEc3yqz94tgHp1Bk'      // THIRD STREAM LINK
         ] 
     },
-    // Add other games here...
+
+    { 
+        id: 2, 
+        sport: 'soccer', 
+        title: 'ATHLETIC CLUB VS ATHLETICO MADRID', 
+        date: 'LIVE NOW', 
+        img: 'https://mrfixitstips.co.uk/app/uploads/2025/11/Athletic-Bilbao-v-Atletico-Madrid-1038x584.jpg', 
+        // 🚨 CHANGE 1: 'embeds' array is correct 🚨
+        embeds: [
+            'https://methstreams.ms/stream/athletic-club-vs-atl-tico-madrid', // SECOND STREAM LINK
+            'https://sportyhunter.com/match/slg-Athletic-Club-vs-Atletico-Madrid-cfj8uxiKAK3R4tifg9eNTe'      // THIRD STREAM LINK
+        ] 
+    },
+    
 ];
 
 const container = document.getElementById('games-container');
@@ -123,3 +136,4 @@ window.onclick = function(event) {
         closeModal();
     }
 }
+
