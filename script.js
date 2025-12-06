@@ -1,11 +1,6 @@
 // Sample Data - You can edit this later with real data
 const gamesData = [
-    { id: 1, sport: 'football', title: 'Varsity vs. Lincoln High', date: 'LIVE NOW', img: 'https://images.unsplash.com/photo-1566577739112-5180d4bf9390?q=80&w=1000&auto=format&fit=crop', embed: 'https://www.youtube.com/embed/dQw4w9WgXcQ' }, // Replace URL with your stream
-    { id: 2, sport: 'basketball', title: 'JV vs. Westside', date: 'Oct 24, 7:00 PM', img: 'https://images.unsplash.com/photo-1546519638-68e109498ee2?q=80&w=1000&auto=format&fit=crop', embed: '' },
-    { id: 3, sport: 'soccer', title: 'Finals: East vs. North', date: 'LIVE NOW', img: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=1000&auto=format&fit=crop', embed: '' },
-    { id: 4, sport: 'football', title: 'Homecoming Game', date: 'Nov 12, 6:00 PM', img: 'https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1000&auto=format&fit=crop', embed: '' },
-    { id: 5, sport: 'basketball', title: 'Varsity Girls vs. Central', date: 'Nov 14, 5:30 PM', img: 'https://images.unsplash.com/photo-1519861531473-920026393112?q=80&w=1000&auto=format&fit=crop', embed: '' },
-    { id: 6, sport: 'soccer', title: 'Playoffs Round 1', date: 'Nov 20, 4:00 PM', img: 'https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?q=80&w=1000&auto=format&fit=crop', embed: '' }
+    { id: 1, sport: 'soccer', title: 'INTER MIAMI VS VANCOUVER', date: 'LIVE NOW', img: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=1000&auto=format&fit=crop', embed: '' },
 ];
 
 const container = document.getElementById('games-container');
@@ -80,3 +75,4 @@ window.onclick = function(event) {
 
 // Initial Load
 displayGames();
+
