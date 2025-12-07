@@ -8,7 +8,7 @@ const gamesData = [
         img: 'https://ufc.com/images/styles/card_trending_mobile_x1/s3/2025-11/120625-ufc-323-dvalishvili-vs-yan-2-EVENT-ART.jpg?itok=2tduyTMB', 
         // 🚨 CHANGE 1: 'embeds' array is correct 🚨
         embeds: [
-            'https://hdplayerr.xyz', // SECOND STREAM LINK
+            'https://streamingon.org/embed/hd-30.php', // SECOND STREAM LINK
             'https://methstreams.ms/stream/ufc-323-dvalishvili-vs-yan-2',      // THIRD STREAM LINK
             'https://sportyhunter.com/match/slg-Jan-Blachowicz-vs-Bogdan-Guskov-c7ccNUP2hj2pFfmxTweTRL'      // THIRD STREAM LINK
         ] 
@@ -123,6 +123,7 @@ window.onclick = function(event) {
         closeModal();
     }
 }
+
 
 
 
