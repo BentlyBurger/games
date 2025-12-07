@@ -1,29 +1,16 @@
 // Sample Data - You can edit this later with real data
 const gamesData = [
-    { 
-        id: 1, 
-        sport: 'basketball', 
-        title: 'WARRIOS VS CAVS', 
-        date: '7:30 PM EST', 
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZArQLMT4gl701znsCVEoCeq6VcUeQkqLYRw&s', 
-        // 🚨 CHANGE 1: 'embeds' array is correct 🚨
-        embeds: [
-            'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQmxyTUFHR21CSmNaamtDb2tqdWFCMWMwWHFWaUcxdk1HblNSQU54L1N3S0RTenRlN01jbkhURVJWYUV4eFJMK0pNaEpTK25aNkNaZ2RrL2IvVXFPMFI~',
-            'https://ntvstream.cx/watch/kobra/cleveland-cavaliers-vs-golden-state-warriors-2357706', // SECOND STREAM LINK
-            'https://sportyhunter.com/match/slg-Cleveland-Cavaliers-vs-Golden-State-Warriors-tSf9HPuEc3yqz94tgHp1Bk'      // THIRD STREAM LINK
-        ] 
-    },
-
     { 
-        id: 2, 
-        sport: 'soccer', 
-        title: 'ATHLETIC CLUB VS ATHLETICO MADRID', 
+        id: 1, 
+        sport: 'other', 
+        title: 'UFC CARD 323', 
         date: 'LIVE NOW', 
-        img: 'https://mrfixitstips.co.uk/app/uploads/2025/11/Athletic-Bilbao-v-Atletico-Madrid-1038x584.jpg', 
+        img: 'https://ufc.com/images/styles/card_trending_mobile_x1/s3/2025-11/120625-ufc-323-dvalishvili-vs-yan-2-EVENT-ART.jpg?itok=2tduyTMB', 
         // 🚨 CHANGE 1: 'embeds' array is correct 🚨
         embeds: [
-            'https://methstreams.ms/stream/athletic-club-vs-atl-tico-madrid', // SECOND STREAM LINK
-            'https://sportyhunter.com/match/slg-Athletic-Club-vs-Atletico-Madrid-cfj8uxiKAK3R4tifg9eNTe'      // THIRD STREAM LINK
+            'https://hdplayerr.xyz', // SECOND STREAM LINK
+            'https://methstreams.ms/stream/ufc-323-dvalishvili-vs-yan-2'      // THIRD STREAM LINK
+            'https://sportyhunter.com/match/slg-Jan-Blachowicz-vs-Bogdan-Guskov-c7ccNUP2hj2pFfmxTweTRL'      // THIRD STREAM LINK
         ] 
     },
     
@@ -136,4 +123,5 @@ window.onclick = function(event) {
         closeModal();
     }
 }
+
 
