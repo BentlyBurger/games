@@ -2,15 +2,15 @@
 const gamesData = [
     { 
         id: 1, 
-        sport: 'other', 
-        title: 'UFC CARD 323', 
+        sport: 'soccer', 
+        title: 'BACRA GAME', 
         date: 'LIVE NOW', 
-        img: 'https://ufc.com/images/styles/card_trending_mobile_x1/s3/2025-11/120625-ufc-323-dvalishvili-vs-yan-2-EVENT-ART.jpg?itok=2tduyTMB', 
+        img: 'https://www.fcbarcelona.com/photo-resources/2025/09/09/a9ecee2c-116c-405c-8524-3127913e7a3c/10-Lamine.jpg?width=1200&height=750', 
         // 🚨 CHANGE 1: 'embeds' array is correct 🚨
         embeds: [
-            'https://streamingon.org/embed/hd-30.php', // SECOND STREAM LINK
-            'https://methstreams.ms/stream/ufc-323-dvalishvili-vs-yan-2',      // THIRD STREAM LINK
-            'https://sportyhunter.com/match/slg-Jan-Blachowicz-vs-Bogdan-Guskov-c7ccNUP2hj2pFfmxTweTRL'      // THIRD STREAM LINK
+            'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQlFZcW9YWklDRWxnL1JxWDhOcXhjTVNIb09QZzhPRTh3c29MVW5oRzZXMCtyczhUZDdTVmVkbkEzMkRtNlpVNTA9', // SECOND STREAM LINK
+            'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydG1VNVJxa1EvSmR3cnpQQ1N4bENyUjVPdEt5OTltUzlyNnJhaCt4SFJkNUpGU2RyZVJ5cnpSZzkyWGY3RzVkb0xNU21MVlJYbXFrbUFteWh6RzJoVjQ9',      // THIRD STREAM LINK
+            'ttps://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydGU0djg2QWhXV3hmdVIvN2l6WEdHU01uNkRHcThUTVBGTEpsYlhhUFNaU015UDR0WVJsU0VXMytPdFZnRzhvUDdPdnpVRGhLYzZwc3dOd2JKeG96cWtucEIwbW5NTGQyRUxVdmZ5MmFDeDc~'      // THIRD STREAM LINK
         ] 
     },
     
@@ -123,6 +123,7 @@ window.onclick = function(event) {
         closeModal();
     }
 }
+
 
 
 
