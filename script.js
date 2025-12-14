@@ -8,9 +8,9 @@ const gamesData = [
         img: 'https://www.fcbarcelona.com/photo-resources/2025/09/09/a9ecee2c-116c-405c-8524-3127913e7a3c/10-Lamine.jpg?width=1200&height=750', 
         // 🚨 CHANGE 1: 'embeds' array is correct 🚨
         embeds: [
-            'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQlFZcW9YWklDRWxnL1JxWDhOcXhjTVNIb09QZzhPRTh3c29MVW5oRzZXMCtyczhUZDdTVmVkbkEzMkRtNlpVNTA9', // SECOND STREAM LINK
-            'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydG1VNVJxa1EvSmR3cnpQQ1N4bENyUjVPdEt5OTltUzlyNnJhaCt4SFJkNUpGU2RyZVJ5cnpSZzkyWGY3RzVkb0xNU21MVlJYbXFrbUFteWh6RzJoVjQ9',      // THIRD STREAM LINK
-            'ttps://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydGU0djg2QWhXV3hmdVIvN2l6WEdHU01uNkRHcThUTVBGTEpsYlhhUFNaU015UDR0WVJsU0VXMytPdFZnRzhvUDdPdnpVRGhLYzZwc3dOd2JKeG96cWtucEIwbW5NTGQyRUxVdmZ5MmFDeDc~'      // THIRD STREAM LINK
+            'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQ01VN1hjVWgrUk1kcVd4MzdPTzRiN0ZYZEVSczNTS1JQaVgrZ0ZHclAwSUdhMTBjbXUvdWJsY3RRQWMyT2lyVkk9', // SECOND STREAM LINK
+            'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydGU0djg2QWhXV3hmdVIvN2l6WEdHU01uNkRHcThUTVBGTEpsYlhhUFNaU3hRVGF2MGJLQ1hySFNBQ0U1YnZJUnFsY1dpY3RmL0hqV0xiRktJOFNMbzJ5UGJVY0ttU3N5R05IUHFVR2htcjQ~',      // THIRD STREAM LINK
+            'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQ01VN1hjVWgrUk1kcVd4MzdPTzRiN0ZYZEVSczNTS1JQaVgrZ0ZHclAwSUdhMTBjbXUvdWJsY3RRQWMyT2lyVkk9'      // THIRD STREAM LINK
         ] 
     },
     
@@ -123,6 +123,7 @@ window.onclick = function(event) {
         closeModal();
     }
 }
+
 
 
 
