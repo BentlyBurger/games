@@ -5,7 +5,7 @@ const gamesData = [
         sport: 'soccer', 
         title: 'MBAPPE FC', 
         date: 'LIVE NOW', 
-        img: 'https://www.fcbarcelona.com/photo-resources/2025/09/09/a9ecee2c-116c-405c-8524-3127913e7a3c/10-Lamine.jpg?width=1200&height=750', 
+        img: 'https://pbs.twimg.com/media/FkTa9uKaYAEidCj.jpg', 
         // 🚨 CHANGE 1: 'embeds' array is correct 🚨
         embeds: [
             'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQ01VN1hjVWgrUk1kcVd4MzdPTzRiN0ZYZEVSczNTS1JQaVgrZ0ZHclAwSUdhMTBjbXUvdWJsY3RRQWMyT2lyVkk9', // SECOND STREAM LINK
@@ -123,6 +123,7 @@ window.onclick = function(event) {
         closeModal();
     }
 }
+
 
 
 
