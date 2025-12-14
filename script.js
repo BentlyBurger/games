@@ -3,7 +3,7 @@ const gamesData = [
     { 
         id: 1, 
         sport: 'soccer', 
-        title: 'BACRA GAME', 
+        title: 'MBAPPE FC', 
         date: 'LIVE NOW', 
         img: 'https://www.fcbarcelona.com/photo-resources/2025/09/09/a9ecee2c-116c-405c-8524-3127913e7a3c/10-Lamine.jpg?width=1200&height=750', 
         // 🚨 CHANGE 1: 'embeds' array is correct 🚨
@@ -123,6 +123,7 @@ window.onclick = function(event) {
         closeModal();
     }
 }
+
 
 
 
