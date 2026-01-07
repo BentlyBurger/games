@@ -5,7 +5,7 @@ const gamesData = [
         sport: 'soccer', 
         title: 'LAMINE FC', 
         date: 'LIVE NOW', 
-        img: 'https://pbs.twimg.com/media/FkTa9uKaYAEidCj.jpg', 
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScKHf2OBehiF_WLubU2biE1XoggHySdG_-953h-cHXtfYMUCWcW21niMc&s', 
         // 🚨 CHANGE 1: 'embeds' array is correct 🚨
         embeds: [
             '<iframe src="https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQVFxemp1Y29FcHBjQ1E4cHhLZndTSk4xWXV4NS9MTFAwZktlNG80L0Q2WG5mTkp5d3FlZzIwZmFjVVFDVEJ0Ylk9', // SECOND STREAM LINK
@@ -123,6 +123,7 @@ window.onclick = function(event) {
         closeModal();
     }
 }
+
 
 
 
