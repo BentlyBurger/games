@@ -8,8 +8,8 @@ const gamesData = [
         img: 'https://pbs.twimg.com/media/FkTa9uKaYAEidCj.jpg', 
         // 🚨 CHANGE 1: 'embeds' array is correct 🚨
         embeds: [
-            'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQ01VN1hjVWgrUk1kcVd4MzdPTzRiN0ZYZEVSczNTS1JQaVgrZ0ZHclAwSUdhMTBjbXUvdWJsY3RRQWMyT2lyVkk9', // SECOND STREAM LINK
-            'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydGU0djg2QWhXV3hmdVIvN2l6WEdHU01uNkRHcThUTVBGTEpsYlhhUFNaU3hRVGF2MGJLQ1hySFNBQ0U1YnZJUnFsY1dpY3RmL0hqV0xiRktJOFNMbzJ5UGJVY0ttU3N5R05IUHFVR2htcjQ~',      // THIRD STREAM LINK
+            '<iframe src="https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQVFxemp1Y29FcHBjQ1E4cHhLZndTSk4xWXV4NS9MTFAwZktlNG80L0Q2WG5mTkp5d3FlZzIwZmFjVVFDVEJ0Ylk9', // SECOND STREAM LINK
+            'httpsg://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydGU0djg2QWhXV3hmdVIvN2l6WEdHU01uNkRHcThUTVBGTEpsYlhhUFNaU3hRVGF2MGJLQ1hySFNBQ0U1YnZJUnFsY1dpY3RmL0hqV0xiRktJOFNMbzJ5UGJVY0ttU3N5R05IUHFVR2htcjQ~',      // THIRD STREAM LINK
             'https://ntvstream.cx/embed?t=RnBicEVST3ZWdWxIOTdKVHE4MlUydFlKR00weWtLd1orQ21LeUtTNTVuQ01VN1hjVWgrUk1kcVd4MzdPTzRiN0ZYZEVSczNTS1JQaVgrZ0ZHclAwSUdhMTBjbXUvdWJsY3RRQWMyT2lyVkk9'      // THIRD STREAM LINK
         ] 
     },
@@ -123,6 +123,7 @@ window.onclick = function(event) {
         closeModal();
     }
 }
+
 
 
 
