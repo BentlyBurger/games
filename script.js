@@ -3,7 +3,7 @@ const gamesData = [
     { 
         id: 1, 
         sport: 'soccer', 
-        title: 'MBAPPE FC', 
+        title: 'LAMINE FC', 
         date: 'LIVE NOW', 
         img: 'https://pbs.twimg.com/media/FkTa9uKaYAEidCj.jpg', 
         // 🚨 CHANGE 1: 'embeds' array is correct 🚨
@@ -123,6 +123,7 @@ window.onclick = function(event) {
         closeModal();
     }
 }
+
 
 
 
